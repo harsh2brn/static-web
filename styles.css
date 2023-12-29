@@ -1,0 +1,21 @@
+/* CSS for Hover Motion and Styling */
+body {
+    background-color: #152121; /* Background color for the website */
+    color: white; /* Font color for the text */
+    font-family: Arial, sans-serif; /* Optional: Font family */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .name {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 100px; /* Adjust margin as needed */
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .name:hover {
+    transform: scale(1.1); /* Change the scale for the desired motion effect */
+  }
+  
